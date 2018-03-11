@@ -1,0 +1,30 @@
+{
+    'message': {
+        'delete_chat_photo': False, 
+        'new_chat_photo': [], 
+        'from': {
+            'username': u'c0defox', 
+            'first_name': u'c0de', 
+            'is_bot': False, 
+            'id': 48143813,
+            'language_code': u'en-US'
+        },
+        'text': u'mow',
+        'caption_entities': [],
+        'entities': [], 
+        'channel_chat_created': False, 
+        'new_chat_members': [], 
+        'supergroup_chat_created': False,
+        'chat': {
+            'username': u'c0defox',
+            'first_name': u'c0de',
+            'type': u'private',
+            'id': 48143813
+        }, 
+        'photo': [], 
+        'date': 1520738702, 
+        'group_chat_created': False, 
+        'message_id': 33
+    }, 
+    'update_id': 127741687
+}
