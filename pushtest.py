@@ -16,7 +16,7 @@ updater = Updater(token=os.environ['telegram_token'])
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.DEBUG)
+                    level=logging.INFO)
 
 ids = dict({})
 
