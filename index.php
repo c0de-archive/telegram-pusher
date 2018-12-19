@@ -2,6 +2,8 @@
 <head>
   <title>Pusher Test</title>
   <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+  <script src="https://raw.githubusercontent.com/Nickersoft/push.js/master/bin/push.min.js" type="text/javascript"></script>
+
   <script>
 
     // Enable pusher logging - don't include this in production
@@ -14,10 +16,12 @@
 
     var channel = pusher.subscribe('<?php echo $_GET['channel']; ?>');
     channel.bind('my-event', function(data) {
-      alert(data.message);
+      Push.create(data.message);
     });
   </script>
-</head>
+
+  
+  </head>
 
 Your notify link: <a href="https://dev.c0defox.es/push/?channel=<?php echo $_GET['channel']; ?>">Get Notified</a>
 
